@@ -1,2 +1,2 @@
 # jQueryMobileicon
-There are icons and sections setting in jQuery Mobile.
+There are icons and section settings in jQuery Mobile.
