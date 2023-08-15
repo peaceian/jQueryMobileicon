@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQueryMobile練習2</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="themes/themetest.min.css">
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+
+</head>
+<body>
+    <div data-role="page" data-theme="c">
+        <div data-role="header" data-position="fixed">
+        </div>
+        <div data-role="main" class="ui-content">
+            <ol type="I">
+            <li><a href="#" data-role="button" data-icon="action" data-iconpos="left" data-inline="true">action</a></li>
+            <li><a href="#" data-role="button" data-icon="alert"  data-iconpos="left" data-inline="true">alert</a></li>
+            <li><a href="#" data-role="button" data-icon="arrow-l"data-iconpos="left"data-inline="true">arrow-l</a></li>
+            <li><a href="#" data-role="button" data-icon="arrow-d"data-iconpos="left"data-inline="true">arrow-d</a></li>
+            <li><a href="#" data-role="button" data-icon="arrow-d-l"data-iconpos="left"data-inline="true">arrow-d-l</a></li>
+            <li><a href="#" data-role="button" data-icon="arrow-d-r"data-iconpos="left"data-inline="true">arrow-d-r</a></li>
+            <li><a href="#" data-role="button" data-icon="arrow-r"data-iconpos="left"data-inline="true">arrow-r</a></li>
+            <li><a href="#" data-role="button" data-icon="arrow-u"data-iconpos="left"data-inline="true">arrow-u</a></li>
+            <li><a href="#" data-role="button" data-icon="arrow-u-l"data-iconpos="left"data-inline="true">arrow-u-l</a></li>
+            <li><a href="#" data-role="button" data-icon="arrow-u-r"data-iconpos="left"data-inline="true">arrow-u-r</a></li>
+            <li><a href="#" data-role="button" data-icon="audio"data-iconpos="left"data-inline="true">audio</a></li>
+            <li><a href="#" data-role="button" data-icon="back"data-iconpos="left"data-inline="true">back</a></li>
+            <li><a href="#" data-role="button" data-icon="bars"data-iconpos="left"data-inline="true">bars</a></li>
+            <li><a href="#" data-role="button" data-icon="bullets"data-iconpos="left"data-inline="true">bullets</a></li>
+            <li><a href="#" data-role="button" data-icon="calendar"data-iconpos="left"data-inline="true">calendar</a></li>
+            <li><a href="#" data-role="button" data-icon="camera"data-iconpos="left"data-inline="true">camera</a></li>
+            <li><a href="#" data-role="button" data-icon="carat-d"data-iconpos="left"data-inline="true">carat-d</a></li>
+            <li><a href="#" data-role="button" data-icon="carat-l"data-iconpos="left"data-inline="true">carat-l</a></li>
+            <li><a href="#" data-role="button" data-icon="carat-r"data-iconpos="left"data-inline="true">carat-r</a></li>
+            <li><a href="#" data-role="button" data-icon="carat-u"data-iconpos="left"data-inline="true">carat-u</a></li>
+            <li><a href="#" data-role="button" data-icon="check"data-iconpos="left"data-inline="true">check</a></li>
+            <li><a href="#" data-role="button" data-icon="clock"data-iconpos="left"data-inline="true">clock</a></li>
+            <li><a href="#" data-role="button" data-icon="cloud"data-iconpos="left"data-inline="true">cloud</a></li>
+            <li><a href="#" data-role="button" data-icon="comment"data-iconpos="left"data-inline="true">comment</a></li>
+            <li><a href="#" data-role="button" data-icon="delete"data-iconpos="left"data-inline="true">delete</a></li>
+            <li><a href="#" data-role="button" data-icon="edit"data-iconpos="left"data-inline="true">edit</a></li>
+            <li><a href="#" data-role="button" data-icon="eye"data-iconpos="left"data-inline="true">eye</a></li>
+            <li><a href="#" data-role="button" data-icon="forbidden"data-iconpos="left"data-inline="true">forbidden</a></li>
+            <li><a href="#" data-role="button" data-icon="forward"data-iconpos="left"data-inline="true">forward</a></li>
+            <li><a href="#" data-role="button" data-icon="gear"data-iconpos="left"data-inline="true">gear</a></li>
+            <li><a href="#" data-role="button" data-icon="grid"data-iconpos="left"data-inline="true">grid</a></li>
+            <li><a href="#" data-role="button" data-icon="heart"data-iconpos="left"data-inline="true">heart</a></li>
+            <li><a href="#" data-role="button" data-icon="home"data-iconpos="left"data-inline="true">home</a></li>
+            <li><a href="#" data-role="button" data-icon="info"data-iconpos="left"data-inline="true">info</a></li>
+            <li><a href="#" data-role="button" data-icon="location"data-iconpos="left"data-inline="true">location</a></li>
+            <li><a href="#" data-role="button" data-icon="lock"data-iconpos="left"data-inline="true">lock</a></li>
+            <li><a href="#" data-role="button" data-icon="mail"data-iconpos="left"data-inline="true">mail</a></li>
+            <li><a href="#" data-role="button" data-icon="navigation"data-iconpos="left"data-inline="true">navigation</a></li>
+            <li><a href="#" data-role="button" data-icon="phone"data-iconpos="left"data-inline="true">phone</a></li>
+            <li><a href="#" data-role="button" data-icon="minus"data-iconpos="left"data-inline="true">minus</a></li>
+            <li><a href="#" data-role="button" data-icon="plus"data-iconpos="left"data-inline="true">plus</a></li>
+            <li><a href="#" data-role="button" data-icon="power"data-iconpos="left"data-inline="true">power</a></li>
+            <li><a href="#" data-role="button" data-icon="recycle"data-iconpos="left"data-inline="true">recycle</a></li>
+            <li><a href="#" data-role="button" data-icon="refresh"data-iconpos="left"data-inline="true">refresh</a></li>
+            <li><a href="#" data-role="button" data-icon="search"data-iconpos="left"data-inline="true">search</a></li>
+            <li><a href="#" data-role="button" data-icon="shop"data-iconpos="left"data-inline="true">shop</a></li>
+            <li><a href="#" data-role="button" data-icon="star"data-iconpos="left"data-inline="true">star</a></li>
+            <li><a href="#" data-role="button" data-icon="tag"data-iconpos="left"data-inline="true">tag</a></li>
+            <li><a href="#" data-role="button" data-icon="user"data-iconpos="left"data-inline="true">user</a></li>
+            <li><a href="#" data-role="button" data-icon="video"data-iconpos="left"data-inline="true">video</a></li>
+            </ol>
+            <div data-role="controlgroup">
+                <a href="#" data-role="button" data-icon="heart"data-iconpos="top">heart</a>
+                <a href="#" data-role="button" data-icon="home"data-iconpos="top">home</a>
+                <a href="#" data-role="button" data-icon="info"data-iconpos="top">info</a>
+                <a href="#" data-role="button" data-icon="location"data-iconpos="top">location</a>
+            </div>
+            <div data-role="controlgroup" data-type="horizontal">
+                <a href="#" data-role="button" data-icon="check"data-iconpos="right"data-inline="true">check</a>
+                <a href="#" data-role="button" data-icon="clock"data-iconpos="right"data-inline="true">clock</a>
+                <a href="#" data-role="button" data-icon="cloud"data-iconpos="right"data-inline="true">cloud</a>
+                <a href="#" data-role="button" data-icon="comment"data-iconpos="right"data-inline="true">comment</a>
+            </div>
+            <div data-role="navbar">
+                <ul>
+                <li><a href="#" data-icon="heart">海綿寶寶</a></li>
+                <li><a href="#" data-icon="star">派大星</a></li>
+                <li><a href="#" data-icon="user">章魚哥</a></li>
+                </ul>
+            </div>
+            <form method="post" action="s908322001@gmail.com"><!--表單元件-->
+            
+                <label for="name">姓名：</label><!--"for" something what equals to "id" -->
+                <input type="text" name="name" id="name" data-clear-btn="true"><!--for="name"=id-->
+                
+                <label for="password">密碼：</label>
+                <input type="password" name="password" id="password" data-clear-btn="true">
+                
+                <label for="mail">信箱：</label>
+                <input type="email" name="mail" id="mail" data-clear-btn="true">
+
+                <label for="tel">電話：</label>
+                <input type="tel" name="tel" id="tel" data-clear-btn="true">
+
+                <label for="url">網址：</label>
+                <input type="url" name="url" id="url" data-clear-btn="true">
+
+                <label for="number">數字：</label>
+                <input type="number" name="number" id="number" data-clear-btn="true">
+
+                <label for="datetime">日期：</label>
+                <input type="datetime-local" name="datetime" id="datetime" data-clear-btn="true">
+                
+                <label for="time">時間：</label>
+                <input type="time" name="time" id="time" data-clear-btn="true">
+            
+                <label for="date">日期：</label>
+                <input type="date" name="date" id="time" data-clear-btn="true">
+
+                <input type="submit" data-inline="true" value="送出">
+
+                <input type="range" name="range" value="0" min="0" max="100" data-hightlight="true" data-show-value="true" data-mini="false" data-theme="c">
+                <h2>切換開關</h2>
+                <select data-role="slider" name="slider" id="slider"><!--只有在jQueryMobile使用data-role="slider"-->
+                    <option value="On">On</option>
+                    <option value="Off">Off</option>
+                </select>
+                <h2>單選選單</h2>
+                <fieldset data-role="controlgroup" data-type="horizontal">
+                    <legend>二選一</legend>
+                    <label for="lovechoice1">愛</label>
+                    <input type="radio" id="lovechoice1" name="lovechoice" value="love" checked=""><!--name要相同，才會視為是一個選單的選項-->
+                    <label for="lovechoice2">不愛</label>
+                    <input type="radio" id="lovechoice2" name="lovechoice" value="nolove" checked="">
+                </fieldset>
+                <h2>複選選單</h2>
+                <fieldset data-role="controlgroup" data-type="horizontal">
+                    <legend>選擇喜歡的顏色</legend>
+
+                    <label for="red">Red</label>
+                    <input type="checkbox" id="red" value="red" name="favcolor">
+
+                    <label for="orange">Orange</label>
+                    <input type="checkbox" id="orange" value="orange" name="favcolor">
+
+                    <label for="yellow">Yellow</label>
+                    <input type="checkbox" id="yellow" value="yellow" name="favcolor">
+
+                    <label for="green">Green</label>
+                    <input type="checkbox" id="green" value="green" name="favcolor">
+
+                    <label for="blue">Blue</label>
+                    <input type="checkbox" id="blue" value="blue" name="favcolor">
+
+                    <label for="purple">Purple</label>
+                    <input type="checkbox" id="purple" value="purple" name="favcolor">
+
+                </fieldset>
+
+                <h2>下拉式選單</h2>
+                <fieldset>
+                <label for="vaccine">要施打的疫苗</label>
+                    <select name="vaccine" id="vaccine">
+                        <option value="B">BNT</option>
+                        <option value="M">Moderna</option>
+                        <option value="A">AZ</option>
+                    </select>
+                </fieldset>
+            </form>
+            <form>
+                <h2>下拉式選單複選</h2>
+                <fieldset>
+                    <label for="favfruit">喜歡的水果</label><!--jquery引用版本1.11.1，否則失效-->
+                    <select name="favfruit" id="favfruit" data-native-menu="false" multiple="multiple"><!--設定要符合，沒有multiple變單選，data-native-menu="false"不設定就失效-->
+                        <option value="favfruit1">Apple</option>
+                        <option value="favfruit2">Banana</option>
+                        <option value="favfruit3">Cherry</option>
+                        <option value="favfruit4">Kiwifruit</option>
+                        <option value="favfruit5">Lemon</option>
+                        <option value="favfruit6">Melon</option>
+                        <option value="favfruit7">Papaya</option>
+                        <option value="favfruit8">Starfruit</option>
+                        <option value="favfruit9">Watermelon</option>
+
+                    </select>
+                </fieldset> 
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
